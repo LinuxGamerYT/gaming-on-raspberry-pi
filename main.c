@@ -18,22 +18,18 @@ int main()
             printf("nothing chosen");
             break;
         case '1':
-            system("cd box86");
             system("chmod +x box86-install.sh");
             system("./box86-install.sh");
             break;
         case '2':
-            system("cd retropie");
             system("chmod +x retropie-install.sh"); 
             system("./retropie-install.sh");
             break;
         case '3':
-            system("cd steam");
             system("chmod +x steam-install.sh"); 
             system("./steam-install.sh");
             break;
         case '4':
-            system("cd wine");
             system("chmod +x wine-install.sh"); 
             system("./wine-install.sh");
             break;
